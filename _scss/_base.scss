@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+[href="#main"] {
+  background-color: #fff;
+  display: block;
+  left: -100%;
+  padding: 1rem;
+  position: absolute;
+  top: -100%;
+
+  &:focus {
+    left: 0;
+    top: 0;
+  }
+}
+
+body {
+  background-color: #fff;
+  color: #444;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  margin: 0;
+  padding: 1.5rem 0 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+  margin: 0 0 0.75rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
+p {
+  margin: 0 0 1.5rem;
+}
+
+ul,
+ol {
+  margin: 0 0 1.5rem;
+  padding-left: 0;
+}
+
+a {
+  color: #2779BD;
+  text-decoration: underline;
+
+  &:hover,
+  &:focus {
+    color: #3490DC;
+    text-decoration: none;
+  }
+}
+
+blockquote {
+  background-image: url('../images/blockquote_bg.svg');
+  background-position: top left;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding-bottom: 1.5rem;
+  padding-left: 3rem;
+  padding-top: 1.5rem;
+  font-size: 1.5rem;
+  font-style: italic;
+}

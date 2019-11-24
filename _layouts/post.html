@@ -1,0 +1,24 @@
+---
+layout: default
+---
+
+<article class="blog-post">
+  <h1 class="blog-post__title">
+    {{ page.title }}
+  </h1>
+  <p class="blog-post__date">
+    {% assign d = page.date | date: "%-d"  %}
+    {% case d %}
+      {% when '1' or '21' or '31' %}{{ d }}st
+      {% when '2' or '22' %}{{ d }}nd
+      {% when '3' or '23' %}{{ d }}rd
+      {% else %}{{ d }}th
+    {% endcase %}
+    {{ page.date | date: "%B" }} 
+    {{ page.date | date: "%Y" }}
+  </p>
+  <div class="blog-post__content">
+    {{ page.content }}
+  </div>
+  <p><em>If you have any comments or questions feel free to <a href="https://twitter.com/steverydz">let me know on Twitter</a>.</em></p>
+</article>

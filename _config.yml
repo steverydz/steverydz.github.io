@@ -1,0 +1,8 @@
+title: Steve Rydz
+description: The thoughts, findings & opinions of a front-end developer
+baseurl: ""
+twitter_username: steverydz
+github_username: steverydz
+sass:
+  sass_dir: _scss
+  style: compressed
