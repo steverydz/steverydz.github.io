@@ -1,8 +1,12 @@
 title: Steve Rydz
 description: The thoughts, findings & opinions of a front-end developer
 baseurl: ""
+paginate: 5
+paginate_path: "/page/:num/"
 twitter_username: steverydz
 github_username: steverydz
 sass:
   sass_dir: _scss
   style: compressed
+plugins:
+  - jekyll-paginate

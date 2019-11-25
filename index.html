@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-{% for post in site.posts %}
+{% for post in paginator.posts %}
   <article class="blog-post">
     <h2 class="blog-post__title">
       <a href="{{ post.url }}">
@@ -26,3 +26,19 @@ title: Home
     </div>
   </article>
 {% endfor %}
+
+<div class="pagination">
+  {% if paginator.previous_page %}
+  <a href="{{ paginator.previous_page_path }}">Previous</a>
+  {% else %}
+  <span class="disabled-link">Previous</span>
+  {% endif %}
+
+  <span>Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+
+  {% if paginator.next_page %}
+  <a href="{{ paginator.next_page_path }}">Next</a>
+  {% else %}
+  <span class="disabled-link">Next</span>
+  {% endif %}
+</div>
