@@ -1,0 +1,13 @@
+.site-header {
+  border-bottom: 1px solid $border-color;
+  margin-bottom: $default-margin;
+  margin-top: $default-margin;
+}
+
+.site-title {
+  margin-bottom: 0;
+}
+
+.site-description {
+  color: $text-color-muted;
+}

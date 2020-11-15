@@ -4,3 +4,7 @@
   max-width: $site-max-width;
   width: $site-width;
 }
+
+.site-content {
+  margin-bottom: $default-margin * 2;
+}
