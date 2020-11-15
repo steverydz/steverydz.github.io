@@ -1,0 +1,34 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #fff;
+  color: #111;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.5;
+}
+
+[href="#main"] {
+  position: absolute;
+  right: 100%;
+  top: 0;
+
+  &:focus {
+    right: auto;
+  }
+}
+
+a {
+  &:focus {
+    background-color: $focus-bg-color;
+    outline: none;
+  }
+}

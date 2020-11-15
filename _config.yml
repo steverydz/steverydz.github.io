@@ -1,2 +1,7 @@
 # Site settings
 permalink: /:year/:month/:day/:title
+
+# Sass settings
+sass:
+  sass_dir: _scss
+  style: compressed

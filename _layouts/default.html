@@ -3,17 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The personal website of Steve Rydz</title>
+  <title>{% if page.title %}{{ page.title }} | Steve Rydz{% else %}The personal website of Steve Rydz{% endif %}</title>
+  <link rel="stylesheet" href="/css/main.css">
 </head>
 <body>
-  <h1><a href="/">Steve Rydz</a></h1>
-  <p>Web developer, photographer, musician. He/him.</p>
-  {{ content }}
-  <ul>
-    <li><a href="https://github.com/steverydz">GitHub</a></li>
-    <li><a href="https://instagram.com/steverydz">Instagram</a></li>
-    <li><a href="https://twitter.com/steverydz">Twitter</a></li>
-  </ul>
-  <p>&copy; 2007 &mdash; 2020 Steve Rydz. All rights reserved.</p>
+  <a href="#main">Skip to content</a>
+  <div class="container">
+    <header role="banner">
+      <h1><a href="/">Steve Rydz</a></h1>
+      <p>Web developer, photographer, musician. He/him.</p>
+    </header>
+    <main id="main" role="main">
+      {{ content }}
+    </main>
+    <footer role="contentinfo">
+      <ul>
+        <li><a href="https://github.com/steverydz">GitHub</a></li>
+        <li><a href="https://instagram.com/steverydz">Instagram</a></li>
+        <li><a href="https://twitter.com/steverydz">Twitter</a></li>
+      </ul>
+      <p>&copy; 2007 &mdash; 2020 Steve Rydz. All rights reserved.</p>
+    </footer>
+  </div>
 </body>
 </html>
