@@ -1,16 +1,10 @@
 .site-header {
   border-bottom: 1px solid $border-color;
   margin-bottom: $default-margin;
-  margin-top: $default-margin;
 }
 
-.site-title {
-  font-size: 2.074rem;
-  line-height: 1.3;
-
-  a {
-    text-decoration: none;
-  }
+.site-title-link {
+  text-decoration: none;
 }
 
 [aria-current="page"] {

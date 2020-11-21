@@ -5,10 +5,10 @@ description: The personal website of Steve Rydz where he shares his thoughts, fi
 
 <h1>Blog posts</h1>
 
-<ul class="post-list">
+<ul class="u-list--unstyled">
 {% for post in site.posts %}
   <li>
-    <time class="post-date" datetime="{{ post.date }}">{{ post.date | date: '%d %b %Y' }}</time>:
+    <time datetime="{{ post.date }}">{{ post.date | date: '%d %b %Y' }}</time>:
     <a href="{{ post.url }}">{{ post.title }}</a>
   </li>
 {% endfor %}
