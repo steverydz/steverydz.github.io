@@ -4,7 +4,12 @@
 }
 
 .site-title-link {
+  color: inherit;
   text-decoration: none;
+
+  &:hover {
+    color: inherit;
+  }
 }
 
 [aria-current="page"] {
