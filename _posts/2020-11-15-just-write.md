@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Just write
+description: Where I talk about the importance of writing
 ---
 
 Inspired by [a blog post from a colleague of mine](https://robinwinslow.uk/2020/11/13/i-am-a-blogger/) I&rsquo;ve decided to try my hand at blogging again. It was less than a year ago that [I said the same thing](/2019/12/07/a-new-beginning), but I fell into the trap of thinking I had nothing to write about.

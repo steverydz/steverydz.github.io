@@ -3,19 +3,19 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.description }}">
+  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <title>{% if page.title %}{{ page.title }} | Steve Rydz{% else %}{{ site.subtitle }}{% endif %}</title>
   <link rel="stylesheet" href="/css/main.css">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="The personal website of Steve Rydz">
-  <meta property="og:description" content="{{ site.description }}">
+  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="og:image" content="https://steverydz.com/images/social/opengraph-image.jpg">
-  <meta name="twitter:card" content="{{ site.description }}">
+  <meta name="twitter:card" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta property="twitter:domain" content="{{ site.url }}">
   <meta property="twitter:url" content="{{ site.url }}{{ page.url }}">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{{ site.description }}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
   <meta name="twitter:image" content="https://steverydz.com/images/social/opengraph-image.jpg">
 </head>
 <body>

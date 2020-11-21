@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About
+description: About Steve Rydz, a web developer, photographer and musician
 ---
 
 Hi, my name is Steve and this is my personal website. Here I write about all kinds of subjects but primarily topics relating to web development, photography and music.
