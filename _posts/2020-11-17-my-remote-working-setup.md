@@ -1,7 +1,6 @@
 ---
 layout: post
 title: My remote working setup
-description: Where I talk about my remote working setup
 ---
 
 Like pretty much everyone in my profession, I&rsquo;ve been working remotely since March of this year due to the ongoing [covid-19 pandemic](https://en.wikipedia.org/wiki/COVID-19_pandemic).

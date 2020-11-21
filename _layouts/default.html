@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="description" content="{{ site.description }}">
   <title>{% if page.title %}{{ page.title }} | Steve Rydz{% else %}{{ site.subtitle }}{% endif %}</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap">
@@ -14,7 +14,7 @@
   <div class="container">
     <header class="site-header" role="banner">
       <div class="h2 u-no-margin--bottom"><a class="site-title-link" href="/">Steve Rydz</a></div>
-      <p class="site-description">Web developer, photographer, musician. He/him.</p>
+      <p>Web developer, photographer, musician. He/him.</p>
       <ul class="inline-list">
         <li class="inline-list__item">
           <a href="/"{% if page.url == "/" %} aria-current="page"{% endif %}>Home</a>
@@ -27,11 +27,9 @@
         </li>
       </ul>
     </header>
-    <main class="site-content" id="main" role="main">
-      {{ content }}
-    </main>
+    <main class="site-content" id="main" role="main">{{ content }}</main>
     <footer class="site-footer" role="contentinfo">
-      <p class="u-no-margin--bottom">&copy; 2007 &mdash; 2020 <a href="/about">Steve Rydz</a></p>
+      <p class="u-no-margin--bottom">&copy; 2007 &mdash; 2020 <a href="/about">Steve Rydz</a>.</p>
       <ul class="inline-list">
         <li class="inline-list__item"><a href="https://github.com/steverydz">GitHub</a></li>
         <li class="inline-list__item"><a href="https://instagram.com/steverydz">Instagram</a></li>

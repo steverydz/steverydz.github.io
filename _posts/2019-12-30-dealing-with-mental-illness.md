@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Dealing with mental illness
-description: Where I talk about my struggles with bipolar disorder
-image: dealing-with-mental-illness
 ---
 
 To anyone who knows me it&rsquo;s no secret that I&rsquo;ve struggled with my mental health over the past few years. Until now I haven&rsquo;t said anything about this publicly. I&rsquo;m writing this in the hope that it encourages someone who thinks they may have a mental illness to seek help.
