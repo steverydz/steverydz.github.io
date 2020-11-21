@@ -11,3 +11,13 @@
 .site-description {
   color: $text-color-muted;
 }
+
+[aria-current="page"] {
+  color: $text-color;
+  cursor: default;
+  text-decoration: none;
+
+  &:hover {
+    color: $text-color;
+  }
+}
