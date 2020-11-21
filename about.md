@@ -6,7 +6,7 @@ description: About Steve Rydz, a web developer, photographer and musician
 
 Hi, my name is Steve and this is my personal website. Here I write about all kinds of subjects but primarily topics relating to web development, photography and music.
 
-![A portrait of Steve Rydz](/images/portrait.jpg)
+<img src="/images/portrait.jpg" width="684" height="456" alt="">
 
 I currently work as a web developer at [Canonical](https://canonical.com), the company behind [Ubuntu](https://ubuntu.com). Any opinions expressed here are my own and not those of my employer.
 
