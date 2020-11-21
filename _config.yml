@@ -1,4 +1,6 @@
 title: Steve Rydz
+subtitle: The personal website of Steve Rydz
+description: The personal website of Steve Rydz where he shares his thoughts, findings and opinions
 url: https://steverydz.com
 permalink: /:year/:month/:day/:title
 sass:
