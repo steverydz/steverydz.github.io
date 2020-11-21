@@ -91,20 +91,6 @@ img {
   }
 }
 
-[href^="http"]:not([href*="steverydz.com"])::after {
-  background-image: url("../images/external-link.svg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 75% auto;
-  content: "(external link)";
-  display: inline-block;
-  height: 1em;
-  overflow: hidden;
-  text-indent: 1em;
-  white-space: nowrap;
-  width: 1em;
-}
-
 .inline-list {
   display: flex;
   list-style: none;
