@@ -1,0 +1,13 @@
+.inline-list {
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.inline-list__item {
+  margin-right: $default-margin;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
