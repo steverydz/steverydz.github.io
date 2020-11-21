@@ -2,7 +2,6 @@
 layout: post
 title: The importance of raising bugs in open source software
 description: Where I talk about a bug report I submitted to an open source project
-image: the-importance-of-raising-bugs-in-open-source-software
 ---
 
 Open source software is great. What makes it great is the fact that anyone can contribute in some way, be it fixing bugs, raising bugs, testing etc. It&rsquo;s important to remember this when we find problems with the software we use. As users and developers of open source software we have the power to effect change.
