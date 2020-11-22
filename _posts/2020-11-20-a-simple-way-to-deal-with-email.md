@@ -3,15 +3,7 @@ layout: post
 title: A simple way to deal with email
 ---
 
-I have a process for dealing with email which enables me to achieve inbox zero every time I visit my inbox. I discovered this technique whilst watching [a video of David Allen](https://www.youtube.com/watch?v=sMvUlLI37jM), the founder of [the GTD methodology](https://gettingthingsdone.com/). After putting this idea into practice I&rsquo;ve found it&rsquo;s had a positive impact on my peace of mind and productivity. So here <code>is some code</code> that I have written. And here <small>is some small text</small>
-
-{% highlight javascript %}
-const someVar = "foo";
-
-const something = () => {
-  return;
-}
-{% endhighlight %}
+I have a process for dealing with email which enables me to achieve inbox zero every time I visit my inbox. I discovered this technique whilst watching [a video of David Allen](https://www.youtube.com/watch?v=sMvUlLI37jM), the founder of [the GTD methodology](https://gettingthingsdone.com/). After putting this idea into practice I&rsquo;ve found it&rsquo;s had a positive impact on my peace of mind and productivity.
 
 ## Clearing the way
 
