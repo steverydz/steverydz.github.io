@@ -132,6 +132,32 @@ blockquote {
   text-indent: -0.4rem;
 }
 
+code {
+  background-color: #eee;
+  border: 1px solid $border-color;
+  display: inline-block;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 0 0.3rem;
+}
+
+pre {
+  background-color: #eee;
+  border: 1px solid $border-color;
+  margin: 0 0 $default-margin;
+  padding: $default-margin;
+
+  code {
+    background-color: transparent;
+    border: none;
+    display: inline;
+    padding: 0;
+  }
+}
+
+figure {
+  margin: 0;
+}
+
 [href="#main"] {
   position: absolute;
   right: 100%;
