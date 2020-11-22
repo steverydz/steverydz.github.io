@@ -122,6 +122,16 @@ img {
   height: auto;
 }
 
+blockquote {
+  border-left: 3px solid $border-color;
+  font-style: italic;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: $default-margin;
+  padding-right: $default-margin;
+  text-indent: -0.4rem;
+}
+
 [href="#main"] {
   position: absolute;
   right: 100%;
