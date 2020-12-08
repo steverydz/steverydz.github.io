@@ -119,6 +119,11 @@ img {
   height: auto;
 }
 
+img[src$=".jpg"],
+img[src$=".jpeg"] {
+  background-color: #000;
+}
+
 blockquote {
   border-left: 3px solid $border-color;
   font-style: italic;
