@@ -15,3 +15,5 @@ You might be interested to know that I [published a photography zine](https://st
 If you&rsquo;re interested you can see [what hardware and software I use](/uses).
 
 If you would like to contact me for any reason feel free to [reach out to me on Twitter](https://twitter.com/steverydz) or send an email to [steverydz@gmail.com](mailto:steverydz@gmail.com).
+
+FYI: This site does not use any form of analytics or tracking. You are safe here :)
