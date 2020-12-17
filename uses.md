@@ -4,13 +4,13 @@ title: Uses
 description: The hardware and software used by Steve Rydz
 ---
 
-It seems to be a common trait among tech geeks to want to know what their peers are using on a day to day basis so I&rsquo;ve put some information about this below.
+It seems to be a common trait among tech geeks to want to know what their peers are using on a day to day basis, so I&rsquo;ve put some information about this below.
 
 <img src="/images/post-images/new_desk.jpg" width="684" height="513" alt="A photo of my new desk setup featuring an external monitor, various peripherals and a herman miller chair">
 
 The above photo is of my current workspace. I started working remotely, like the majority of office-based workers, at the start of the covid-19 pandemic. Initially I wasn&rsquo;t really setup for it. After making do for a while I decided to invest in [setting up a proper working space](/2020/11/17/my-remote-working-setup).
 
-## Furnitre
+## Furniture
 
 - [Ikea MALM desk](https://www.ikea.com/gb/en/p/malm-desk-black-brown-00214157/)
 - [Ikea Billy bookcase](https://www.ikea.com/gb/en/p/billy-bookcase-black-brown-20263830/)
