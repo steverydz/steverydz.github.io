@@ -26,6 +26,7 @@ The above photo is of my current workspace. I started working remotely, like the
 - [Logitech G PRO Headset](https://smile.amazon.co.uk/gp/product/B07TQ6G276/ref=ppx_yo_dt_b_asin_title_o04_s00)
 - [Creative Inspire T10 speakers](https://smile.amazon.co.uk/gp/product/B000WQIKJ0/ref=ppx_yo_dt_b_search_asin_title)
 - [Roost laptop stand](https://www.therooststand.com/)
+- [AmazonBasics monitor stand](https://smile.amazon.co.uk/gp/product/B00X4SCCFG/ref=ppx_yo_dt_b_search_asin_title)
 
 ## Software
 - [Ubuntu 20.04](https://ubuntu.com/download/desktop)
