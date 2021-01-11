@@ -19,6 +19,7 @@ The above photo is of my current workspace. I started working remotely, like the
 ## Hardware
 - [Dell XPS 13](https://www.dell.com/en-uk/shop/sfc/sf/xps-laptops)
 - [LG UHD 24UD58 24 inch monitor](https://smile.amazon.co.uk/gp/product/B01JM4E3UC/)
+- [Logitech C615 Portable Webcam](https://smile.amazon.co.uk/gp/product/B014KH8BRW/ref=ppx_yo_dt_b_search_asin_title)
 - [Dell D6000 docking station](https://smile.amazon.co.uk/gp/product/B072K6HJBN)
 - [Anker veritcal wireless mouse](https://smile.amazon.co.uk/gp/product/B00BIFNTMC)
 - [Microsoft Sculpt ergonomic keyboard](https://smile.amazon.co.uk/gp/product/B00FGRYXAK)
