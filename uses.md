@@ -34,8 +34,7 @@ The above photo is of my current workspace. I started working remotely, like the
 - VS Code
 - Terminal
 - [Todoist](https://snapcraft.io/todoist)
-- [Notion](https://snapcraft.io/notion-snap)
-- Figma
+- [Simplenote](https://simplenote.com)
 - Google apps (Gmail, Calendar, Drive, Docs etc.)
 
 I&rsquo;ll try to keep these lists up to date as and when things change but I don&rsquo;t see myself making any major changes to my setup any time soon.
