@@ -21,11 +21,11 @@ As I go through my list of emails I decide whether or not it requires an action.
 
 ## Keeping track
 
-Often there is email that will require an action in the future but I&rsquo;m waiting on something before I can carry it out. For this I apply the @waiting label. I&rsquo;ll also use thit label for emails I send which require a reponse. A bonus tip is to bcc yourself so you can keep track of things.
+Often there is email that will require an action in the future but I&rsquo;m waiting on something before I can carry it out. For this I apply the @waiting label. I&rsquo;ll also use this label for emails I send which require a reponse. A bonus tip is to bcc yourself so you can keep track of things.
 
 ## Review
 
-At the start and end of each day I&rsquo;ll review the contents of both these labels. Are there any actions I can take care of and am I still waiting on any reponses? Doing this gives me peace of mind so I can switch off at the end of the day and focus my attention of other aspects of my life.
+At the start and end of each day I&rsquo;ll review the contents of both these labels. Are there any actions I can take care of and am I still waiting on any reponses? Doing this gives me peace of mind so I can switch off at the end of the day and focus my attention on other aspects of my life.
 
 ## A disciplined approach
 
