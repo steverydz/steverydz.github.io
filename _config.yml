@@ -1,0 +1,12 @@
+title: Steve Rydz
+subtitle: The personal website of Steve Rydz
+description: The personal website of Steve Rydz where he shares his thoughts, findings and opinions.
+default_image: https://steverydz.com/images/social/default-social-image.jpg
+url: https://steverydz.com
+permalink: /:year/:month/:day/:title
+sass:
+  sass_dir: _scss
+  style: compressed
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap

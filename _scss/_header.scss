@@ -1,0 +1,23 @@
+.site-header {
+  border-bottom: 1px solid $border-color;
+  margin-bottom: $default-margin;
+}
+
+.site-title-link {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    color: inherit;
+  }
+}
+
+[aria-current="page"] {
+  color: $text-color;
+  cursor: default;
+  text-decoration: none;
+
+  &:hover {
+    color: $text-color;
+  }
+}

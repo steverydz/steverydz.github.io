@@ -1,0 +1,14 @@
+#/bin/bash
+
+POST_TITLE=$1
+DATE=$(date +%Y-%m-%d)
+POST_SLUG=$(echo "$DATE" "$POST_TITLE" | tr " " "-" | tr "[:upper:]" "[:lower:]" | tr -d "(" | tr -d ")")
+POSTS_PATH="_posts/$POST_SLUG.md"
+
+touch $POSTS_PATH
+
+echo "---" >> $POSTS_PATH
+echo "layout: post" >> $POSTS_PATH
+echo "title": $POST_TITLE >> $POSTS_PATH
+echo "description:" >> $POSTS_PATH
+echo "---" >> $POSTS_PATH
